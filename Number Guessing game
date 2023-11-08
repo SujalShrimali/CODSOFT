@@ -59,12 +59,12 @@ int main()
         if(guess_num > real_num)
         {
             guess_count += 1;
-            cout<<"increase your choice";
+            cout<<"decrease your choice";
         }
         else if(guess_num < real_num)
         {
             guess_count += 1;
-            cout<<"uh ooh lower it";
+            cout<<"its too low";
         }
         else
         {
